@@ -78,7 +78,6 @@ const ReservationList = () => {
 					<select
 						name='status'
 						onChange={handleFilterChange}
-						value={filters.status}
 						className='bg-gray-800 p-3 rounded-md w-full'
 					>
 						<option value=''>All</option>
@@ -94,7 +93,6 @@ const ReservationList = () => {
 					<select
 						name='date'
 						onChange={handleFilterChange}
-						value={filters.date}
 						className='bg-gray-800 p-3 rounded-md w-full'
 					>
 						<option value=''>All</option>
